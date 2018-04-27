@@ -43,7 +43,8 @@ for line in file.values.tolist():
 plt.scatter(f1, f2,color='red',marker='^',label='NSGA-II (implemented)')
 
 path = '/home/renansantos/Área de Trabalho/GA Testes/'
-file = path + 'MOEAD_R2_2.txt'
+# file = path + 'MOEAD_R2_2.txt'
+file = path + 'CLMOEAD_R2.txt'
 
 def get_data_from_txt(file,index):
 	file = open(file)
@@ -55,7 +56,7 @@ def get_data_from_txt(file,index):
 f1 = get_data_from_txt(file, 0)
 f2 = get_data_from_txt(file, 1)
 
-plt.scatter(f1, f2,color='green',marker='o',label='MOEAD')
+plt.scatter(f2, f1,color='green',marker='o',label='MOEAD')
 plt.legend(loc='upper right')
 
 # plt.xlim(20000, 70000)

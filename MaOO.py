@@ -7,7 +7,7 @@ import re
 from scipy import stats
 from collections import Counter
 
-path = '/home/renansantos/NetBeansProjects/MOEA_VRPDRT_Refactoring/AlgorithmsResults/CLNSGAII/ZDT3/'
+path = '/home/renansantos/NetBeansProjects/MOEA_VRPDRT_Refactoring/AlgorithmsResults/CLNSGAII/WFG1_2/'
 file = 'CLNSGAII_CoombinedPareto.txt'
 
 file = open(path + file)
